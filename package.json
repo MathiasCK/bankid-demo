@@ -1,0 +1,37 @@
+{
+  "name": "bankid-demo",
+  "version": "1.0.0",
+  "description": "This is a sample Express.js application that demonstrates how to implement authentication using the Norwegian BankID system with Passport.js and Express Sessions.",
+  "main": "/src/app.ts",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/app.ts"
+  },
+  "keywords": [
+    "authentication",
+    "passport",
+    "express",
+    "session"
+  ],
+  "author": "Mathias Kolberg",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.2",
+    "openid-client": "^5.5.0",
+    "passport": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.1.2",
+    "@types/express": "^4.17.17",
+    "@types/express-session": "^1.17.7",
+    "@types/jsonwebtoken": "^9.0.3",
+    "@types/node": "^20.6.3",
+    "@types/passport": "^1.0.12",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
